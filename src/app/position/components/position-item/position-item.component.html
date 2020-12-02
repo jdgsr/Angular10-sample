@@ -1,0 +1,25 @@
+<div class="loading-shade" *ngIf="isLoadingResults">
+    <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+</div>
+<div *ngIf="isLoadingResults == false && position == null" class="no-data">
+    No Records to Display
+</div>
+<div *ngIf="position" class="positionContainer">
+    <mat-dialog-content>
+        <mat-grid-list cols="4" rowHeight="100px">
+            <mat-grid-tile [colspan]="3" [rowspan]="1">
+                <h2 mat-dialog-title>
+                    {{position.title}} </h2> &nbsp;
+                <h4 mat-dialog-title> {{position.type }} / {{ position.location}} </h4>
+            </mat-grid-tile>
+            <mat-grid-tile [colspan]="1" [rowspan]="1">
+                <a href="{{position.company_url}}"><img src="{{position.company_logo}}" width="300px" height="100px" /> </a>
+            </mat-grid-tile>
+        </mat-grid-list>
+    </mat-dialog-content>
+    <mat-dialog-content class="mat-typography" [innerHtml]="position.description | sanitizeHtml: 'html'">
+    </mat-dialog-content>
+    <mat-dialog-content class="mat-typography" [innerHtml]="position.how_to_apply | sanitizeHtml: 'html'">
+    </mat-dialog-content>
+
+</div>

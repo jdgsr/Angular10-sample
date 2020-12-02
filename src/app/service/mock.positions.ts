@@ -1,0 +1,13 @@
+import {Position} from '../position/interfaces/position';
+export const positionData: Position[] = [{
+company: 'Devoss GmbH',
+company_logo: 'https://jobs.github.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbGVLIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0dd35bc1207b11c59543b0dd8d6bbf3f29b34c5b/devoss-gmb-h-logo-l.jpg',
+company_url: 'http://devoss.de/',
+created_at: 'Thu Sep 17 15:06:27 UTC 2020',
+description: '<p>Zur Verstärkung unseres Teams in München suchen wir baldmöglichst Administratoren für den Backup-Betrieb (m/w/d).</p>↵<p>Das Hauptbetätigungsfeld der Devoss GmbH ist Beratung, Service und Support für SAN (Storage Area Network)- und NAS (Network- Attached Storage)- Umgebungen, Backup-Betrieb in NetBackup- Umgebungen sowie der Betrieb von HP/Linux- und ESX/ESXi Vmware- Umgebungen. Weiterhin sind wir sowohl auf Sizing, Betrieb, Monitoring, Performanceanalyse, als auch High-Availability-Lösungen für Unix-Systeme (HP-UX, AIX, Linux, VMware) und kundenspezifische Softwareprogrammierung spezialisiert.</p>↵<p><strong>Aufgaben</strong></p>↵<p>Betrieb einer großen, auf NetBackup basierenden Umgebung:</p>↵<ul>↵<li>Planung und Durchführung von Erweiterungen und Upgrades der bestehenden Backup-Umgebung</li>↵<li>Unterstützung im Backup-Betrieb (NetBackup)</li>↵<li>Übernahme von Backup- und Restore-Aufgaben</li>↵<li>Planung und Umsetzung der Backup-Schedules</li>↵<li>Übernahme von Rufbereitschaft</li>↵</ul>↵<p><strong>Qualifikation</strong></p>↵<ul>↵<li>Hochschulabschluss oder guter Schulabschluss in einem entsprechenden Fachbereich, z.B. Informatik-Schulen</li>↵<li>Mehrjährige Erfahrung im Bereich Backup (bevorzugt Veritas NetBackup)↵gute Kommunikationsfähigkeit in Deutsch und Englisch in Wort und Schrift</li>↵<li>Begeisterungsfähigkeit und Lernbereitschaft</li>↵<li>Teamgeist, Flexibilität und Belastbarkeit</li>↵</ul>↵<p><strong>Benefits</strong></p>↵<ul>↵<li>Unsere Mitarbeiter arbeiten zur Zeit im Homeoffice, ansonsten teilweise beim Kunden vor Ort im Großraum München und bestimmen eigenverantwortlich in Abstimmung mt dem Team ihre Arbeitsabläufe.</li>↵<li>Wir freuen uns auf Ihre aussagekräftige Bewerbung einschließlich Gehaltsvorstellung und nächstmöglichem Eintrittstermin.</li>↵</ul>↵<p><strong>Zur Einarbeitung ist die Anwesenheit in München Voraussetzung. Bitte bewerben Sie sich nicht, wenn das nicht möglich ist.</strong></p>↵',
+how_to_apply: '<p><a href="https:// devoss.join.com/jobs/13rieb%2Bbackup%2Bm%2Bw%2Bd%2B-%2Bmuenchen</a></p>↵"',
+id: 'f9ad776b-9022-4fe9-a84e-50a527ec2a6e',
+location: 'Remote, Munich',
+title: 'Administrator für Betrieb Backup (m/w/d) - München',
+type: 'Full Time',
+url: 'https://jobs.github.com/positions/f9ad776b-9022-4fe9-a84e-50a527ec2a6e'}];
